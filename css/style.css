@@ -1,0 +1,665 @@
+/*TIPOGRAFÍA PÁRRAFOS*/
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+/*TIPOGRAFÍA H1*/
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+/*TIPOGRAFÍA H2*/
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+/*TIPOGRAFÍA H3*/
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+/*TIPOGRAFÍA LISTAS*/
+ul li {
+    font-family: 'Montserrat', sans-serif;
+}
+/*TIPOGRAFÍA BOTONES*/
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+/*TIPOGRAFÍA DIVS*/
+div {
+    font-family: 'Montserrat', sans-serif;
+}
+/*LOGO EN FILA CON ELEMENTOS DE NAV*/
+header {
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*ELEMENTOS UL DE NAV EN FILA*/
+.nav-menu {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: space-around;
+    list-style: none;
+}
+/*ESTILOS GENERALES DE LOS BOTONES*/
+button {
+    padding: 5px 10px 5px 10px;
+    margin-top: 5px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+/*HOVER A ELEMENTOS a*/
+a:hover {
+    color: white;
+}
+/*BOTÓN DE BÚSQUEDA NAV*/
+.nav-btn {
+    background-color: white;
+    border-color: #f1e2cc;
+    color: black;    
+}
+/*HOVER A BOTONES*/
+button:hover {
+    color: #f1e2cc;
+}
+/*DIV IMAGEN PRINCIPAL*/
+.img-principal {
+    padding: 20px 20px 0px 0px;
+    margin-left: 20px;
+}
+/*ANCHO IMAGEN PRINCIPAL*/
+.img-inicio {
+    width: 100%;
+}
+/*IMAGEN Y TEXTO PRINCIPAL EN FILAS*/
+.img-texto-principal {
+    display: flex;
+    align-items: center;
+    background-color: #f1e2cc;
+}
+/*H1 INICIO*/
+.title-intro {
+    margin-bottom: 50px;
+}
+/*DIV H1 + TEXTO INTRODUCTORIO*/
+.texto-intro {
+    width: 80%;
+    padding: 40px;
+    font-size: large;
+}
+/*PÁRRAFOS TEXTO DE DESCRIPCIÓN*/
+.descripcion-intro {
+    margin-top: 20px;
+    text-align: center;
+}
+/*ÚLTIMO PÁRRAFO DE DESCRIPCIÓN CENTRADO */
+.descripcion-intro-end {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*H1 CENTRADOS */
+h1 {
+    text-align: center;
+}
+/*CONTENEDOR SECCIÓN DE HABILIDADES */
+.habilidades-contenedor {
+    padding: 20px;
+}
+/*h2 sección habilidades */
+.title-habs {
+    text-align: center;
+    margin: 50px 0px 30px 0px;
+    padding-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+/*PÁRRAFOS HABILIDADES */
+.text-habs {
+    text-align: center;
+    font-size: large;
+}
+/*ÍCONOS HABILIDADES + H3 */
+.habs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+/*CADA ÍCONO DE HABILIDADES + H3 CORRESPONDIENTE */
+.habs-items {
+    text-align: center;
+    margin: 10px;
+}
+/*CADA ÍCONO DE HABILIDADES */
+.imgs-habs {
+    width: 100%;
+}
+/*CONTENEDOR SECCIÓN DE EXPERIENCIAS */
+.exp-contenedor {
+    background-color: #f1e2cc;
+    padding: 3px;
+}
+/*H2 SECCIÓN DE EXPERIENCIAS */
+.title-exp {
+    text-align: center;
+    margin: 50px 50px 30px 50px;
+}
+/*PÁRRAFOS SECCIÓN DE EXPERIENCIAS */
+.text-exp {
+    text-align: center;
+    font-size: large;
+}
+/*LOGOS SECCIÓN DE EXPERIENCIAS */
+.exp-items {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 20px 20px 30px;
+}
+/*CONTENEDOR DE FORMULARIO DE PÁGINA DE INICIO */
+.form-contenedor {
+    background-color: #D5DED9;
+    width: 50%;
+    margin: 0 auto; margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+/*H2 FORMULARIO DE INICIO */
+.form-title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;;
+}
+/*CONTENEDOR ELEMENTOS DE FORMULARIO DE PÁGINA DE INICIO */
+.form-list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    flex: 1;
+    padding: 10px;
+    flex: 1;
+}
+/*UL DE FORMULARIO DE PÁGINA DE INICIO */
+.form-ul {
+    list-style: none;
+}
+/*LABEL DE FORMULARIO DE PÁGINA DE INICIO */
+label {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+}
+/*INPUTS Y TEXTAREA DE FORMULARIO DE PÁGINA DE INICIO */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/*TEXTAREA DE FORMULARIO DE PÁGINA DE INICIO */
+textarea {
+    height: 100px;
+}
+/*INPUT */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*PÁRRAFO LABEL*/
+.text-form {
+    padding: 5px 0px;
+}
+
+/*FOOTER*/
+footer {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #99B2B7
+}
+/*DIV FOOTER*/
+footer div {
+    flex: 1;
+    text-align: center;
+}
+
+
+/*FOOTER SIN BULLETS*/
+footer ul {
+    list-style: none;
+}
+/*ÍCONO TELÉFONO CONTACTO FOOTER*/
+.img-tel {
+    margin: 0px 10px 10px 0px; 
+  }
+  /*ÍCONO MAIL CONTACTO FOOTER*/
+  .img-mail {
+    margin: 0px 10px 10px 0px;
+}
+/*ÍCONO UBICACIÓN CONTACTO FOOTER*/
+.img-ubi {
+    margin: 0px 10px 10px 0px;
+}
+/*ELEMENTOS a SIN SUBRAYADO*/
+a {
+    text-decoration: none;
+}
+/*BARRA DE NAVEGACIÓN FOOTER*/
+.footer-nav {
+padding-top: 20px;
+}
+/*ELEMENTOS LI CON HOVER*/
+li a:hover {
+    color: #f1e2cc;
+}
+/*COLOR TIPOGRAFÍA ELEMENTOS MENÚ DE NAVEGACIÓN FOOTER*/
+.color-nav {
+    color: black;
+}
+/*H1 SECCIÓN SOBRE MÍ*/
+.title-sobre-mi {
+    text-align: center;
+    padding: 20px;
+    background-color: #cdcdcd;
+    font-family: 'Playfair Display', serif;
+}
+/*CONTENEDOR SECCIÓN H1 + H2 + PÁRRAFOS + FOTO SOBRE MÍ*/
+.mi-container {
+    background-color: #f1e2cc;
+}
+/*DIV H1 + H2 + PÁRRAFOS + FOTO SOBRE MÍ*/
+.img-text-mi {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+/*H2 + PÁRRAFO QUIÉN SOY*/
+.h2-li {
+    display: flex; 
+    align-items: center;
+    margin: 40px;
+    font-size: large;
+ }
+/*H2 QUIÉN SOY*/
+.title-quien-soy {
+    text-align: center;
+    padding: 20 0px 3px 0px;
+    color: #948C75;
+}
+/*IMAGEN SECCIÓN SOBRE MÍ*/
+.img-nos {
+    padding: 30px 50px 30px 30px;
+    width: 30%;
+}
+/*LI SECCIÓN SOBRE MÍ*/
+.ul-mi-item {
+    list-style: none;
+    margin: 20px;
+}
+/*H2 FORMACIÓN*/
+.title-formacion {
+    text-align: center;
+    margin: 30px 0px 50px 0px;
+}
+/*CONTENEDOR SECCIÓN FORMACIÓN*/
+.formacion-contenedor {
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+/*ÍCONO + P SECCIÓN FORMACIÓN*/
+.formacion-item {
+    flex: 1;
+    text-align: center;
+    }
+/*ÍCONOS SECCIÓN FORMACIÓN*/
+.img-form {
+    max-width: 100%;
+    height: auto;
+}
+/*PÁRRAFOS SECCIÓN FORMACIÓN*/
+.p-formacion {
+    padding: 50px;
+    text-align: justify;
+}
+/*H2 SECCIÓN DE CURSOS*/
+.title-cursos {
+    text-align: center;
+    margin-top: 30px;
+}
+/*CONTENEDOR SECCIÓN DE CURSOS*/
+.cursos-contenedor {
+    display: flex;
+    margin-top: 30px;
+    padding: 0px 70px 0px 20px; 
+    background-color: #D5DED9;
+}
+/*H3 UX WRITING*/
+.ux-formacion {
+    text-align: center;
+    padding-top: 30px;
+}
+/*H3 UX MARKETING*/
+.mkt-formacion {
+    text-align: center;
+    padding-top: 30px;
+}
+/*H3 COPYWRITING*/
+.copy-formacion {
+    text-align: center;
+    padding-top: 30px;
+}
+/*PÁRRAFOS CURSOS*/
+.p-cursos {
+    padding: 20px 100px 20px 100px;
+    text-align: justify;
+    font-size: large;
+}
+/*H1 SECCIÓN MIS TRABAJOS*/
+.title-trabajos {
+    text-align: center;
+    padding: 20px;
+    background-color: #cdcdcd;
+    font-family: 'Playfair Display', serif;
+}
+/*DIV TEXTO INTRODUCTORIO MIS TRABAJOS*/
+.img-text-trabajos {
+    background-color: #f1e2cc;
+    text-align: center;
+    font-size: large;
+}
+/*CADA UL TEXTO INTRODUCTORIO*/
+.ul-trabajos-item {
+    list-style: none;
+    margin: 20px;
+}
+/*CONTENEDOR H1 + PÁRRAFO + CARDS*/
+.trabajos-container {
+    background-color: #f1e2cc;
+}
+/*CADA CARD SECCIÓN MIS TRABAJOS*/
+.card {
+    margin-bottom: 25px;
+}
+/*CONTENEDOR CARDS SECCIÓN MIS TRABAJOS*/
+.cards-trabajos {
+    padding: 50px 50px 0px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/*H2 + PÁRRAFO + BOTÓN*/
+.card-body {
+    text-align: center;
+}
+/*TÍTULO DE CADA CARD*/
+.card-title {
+    font-weight: 700;
+}
+/*PÁRRAFO DE CADA CARD*/
+.card-text {
+    padding: 10px;
+}
+/*BOTONES CARDS*/
+.button-card {
+    background-color: #f1e2cc;
+    border-color: black;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    font-size: large;
+}
+/*BOTONES CENTRADOS CARDS*/
+.centrar-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+/*H1 SECCIÓN SERVICIOS*/
+.title-servicios {
+    padding: 20px;
+    margin: 0px 0px 20px 0px;
+    background-color: #CDCDCD;
+    font-family: 'Playfair Display', serif;
+}
+/*H1 + PÁRRAFO SERVICIOS*/
+.serv-title-ul {
+    width: 100%;
+}
+/*PRIMER PÁRRAFO TEXTO INTRODUCTORIO SERVICIOS*/
+.li-servicios-1 {
+    margin-bottom: 20px;
+}
+/*SEGUNDO PÁRRAFO TEXTO INTRODUCTORIO SERVICIOS*/
+.li-servicios-2 {
+    margin-bottom: 20px 0px 20px 0px;
+}
+/*TERCER PÁRRAFO TEXTO INTRODUCTORIO SERVICIOS*/
+.li-servicios-3 {
+    margin: 20px 0px 40px 0px;
+}
+/*UL SERVICIOS*/
+.ul-servicios {
+    list-style: none;
+    margin: 0% 20% 0% 20%;
+    font-size: large;
+}
+/*ARTICLE SERVICIOS*/
+.servicios-art {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1e2cc;
+    color: black;
+    font-size: large;
+}
+/*MARGIN Y PADDING SERVICIOS*/
+.servicios-items {
+    margin: 30px 20px 20px 30px;
+    padding: 0px 200px 0px 50px;
+}
+/*FLEX Y ALINEACIÓN SERVICIOS*/
+.img-text-servicios {
+    display: flex;
+    align-items: center;
+}
+/*H3 SERVICIO REDACCIÓN WEB*/
+.title-h3-servicios-1 {
+    margin-left: 40px;
+}
+/*H3 SERVICIO EMAIL MARKETING*/
+.title-h3-servicios-2 {
+    margin-left: 40px;
+}
+/*H3 SERVICIO UX WRITING*/
+.title-h3-servicios-3 {
+    margin-left: 40px;
+}
+/*H3 SERVICIO SEO*/
+.title-h3-servicios-4 {
+    margin-left: 40px;
+}
+/*PÁRRAFOS SERVICIOS*/
+.p-servicios {
+    margin-left: 70px;
+}
+/*H1 SECCIÓN CONTACTO*/
+.title-contact {
+    background-color: #CDCDCD;
+    padding: 20px;
+}
+/*IMAGEN SECCIÓN CONTACTO*/
+.imagen-contacto {
+    width: 50%;
+}
+/*CONTENEDOR SECCIÓN CONTACTO*/
+.contact-form-container {
+    padding: 20px 0px 20px 0px;
+}
+/*CONTENEDOR IMAGEN + H2 + UL SECCIÓN CONTACTO*/
+.contact-container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 30px;
+    align-items: center;
+}
+/*H2 SECCIÓN CONTACTO*/
+.h2-contact {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+/*UL SECCIÓN CONTACTO*/
+.ul-contact {
+    list-style: none;
+    font-size: large;
+}
+/*PRIMER LI SECCIÓN CONTACTO*/
+.li-contact-1 {
+    margin-bottom: 20px;
+}
+/*SEGUNDA LI SECCIÓN CONTACTO*/
+.li-contact-2 {
+    margin-top: 20px;
+}
+
+
+
+/* Media Query tablet (pantalla de ancho 768px o más pequeña) */
+@media screen and (max-width: 768px) {
+    /*IMAGEN Y TEXTO PRINCIPAL EN COLUMNAS*/
+    .img-texto-principal {
+        flex-direction: column;
+    }
+    /*DIV IMAGEN PRINCIPAL*/
+    .img-principal {
+        padding: 20px 20px 0px 0px;
+        margin-left: 20px;
+    }
+    /*ANCHO IMAGEN PRINCIPAL*/
+    .img-inicio {
+        width: 100%;
+        margin: auto;
+    }
+    /*LOGOS SECCIÓN DE EXPERIENCIAS */
+    .exp-items {
+        flex-direction: column;
+    }
+    /*CONTENEDOR SECCIÓN DE EXPERIENCIAS */
+    .exp-contenedor {
+        padding: 50px;
+    }
+    /*CONTENEDOR DE FORMULARIO DE PÁGINA DE INICIO */
+    .form-contenedor {
+        margin: 0 auto; margin-top: 20px;
+    }
+    /*DIV H1 + H2 + PÁRRAFOS + FOTO SOBRE MÍ*/
+    .img-text-mi {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    /*IMAGEN SECCIÓN SOBRE MÍ*/
+    .img-nos {
+        margin: auto;
+        width: 100%;
+    }
+    /*CONTENEDOR SECCIÓN FORMACIÓN*/
+    .formacion-contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+    /*PÁRRAFOS SECCIÓN FORMACIÓN*/
+    .p-formacion {
+        padding: 20px 80px 20px 80px;
+        text-align: justify;
+    }
+    /*CONTENEDOR SECCIÓN DE CURSOS*/
+    .cursos-contenedor {
+    display: inline-block;
+    padding: 20px 70px 0px 20px; 
+    }
+    /*PÁRRAFOS CURSOS*/
+    .p-cursos {
+        text-align: center;
+        padding: 40px;
+    }
+    /*ÍCONOS HABILIDADES + H3 */
+    .habs {
+        flex-wrap: wrap;
+    }
+    /*CONTENEDOR SECCIÓN DE HABILIDADES */
+    .habilidades-contenedor {
+        padding: 50px;
+    }
+    /*CONTENEDOR SECCIÓN DE SERVICIOS */
+    .servicios-container {
+        display: inline-block;
+    }
+    /*H1 + PÁRRAFO SERVICIOS*/
+    .serv-title-ul {
+        width: 100%;
+    }
+    /*FLEX Y ALINEACIÓN SERVICIOS*/
+    .img-text-servicios {
+        display: flex;
+        flex-direction: column;
+    }
+    /*CONTENEDOR IMAGEN + H2 + UL SECCIÓN CONTACTO*/
+    .contact-container {
+        flex-direction: column;
+    }
+    /*FOOTER*/
+    footer {
+        flex-direction: column;
+        padding: 20px;
+    }
+}
+
+/* Media Query celular (pantalla de ancho 480px o más pequeña)*/
+@media screen and (max-width: 480px) {
+    /*PÁRRAFOS CURSOS*/
+    .p-cursos {
+        text-align: justify;
+        padding: 20px 10px 20px 60px;
+    }
+    /*H3 UX MARKETING*/
+    .mkt-formacion {
+        text-align: center;
+        padding: 0px 0px 0px 45px;
+    }
+    /*H3 UX WRITING*/
+    .ux-formacion {
+        text-align: center;
+        padding: 0px 0px 0px 30px;
+    }
+    /*H3 COPYWRITING*/
+    .copy-formacion {
+        text-align: center;
+        padding: 0px 0px 0px 45px;   
+    }
+    /*H1 + PÁRRAFO SERVICIOS*/
+    .serv-title-ul {
+        width: 100%;
+    }
+    /*CONTENEDOR IMAGEN + H2 + UL SECCIÓN CONTACTO*/
+    .contact-container {
+        flex-direction: column;
+    }
+    /*FOOTER*/
+    footer {
+        flex-direction: column;
+        width: 100%;
+    }
+}

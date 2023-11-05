@@ -562,7 +562,9 @@ li a:hover {
     }
     /*CONTENEDOR DE FORMULARIO DE PÁGINA DE INICIO */
     .form-contenedor {
-        margin: 0 auto; margin-top: 20px;
+        margin: 0 auto; 
+        margin-top: 20px;
+        width: 100%;
     }
     /*DIV H1 + H2 + PÁRRAFOS + FOTO SOBRE MÍ*/
     .img-text-mi {

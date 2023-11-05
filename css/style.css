@@ -605,6 +605,21 @@ li a:hover {
     .habilidades-contenedor {
         padding: 50px;
     }
+    /*H3 SERVICIO REDACCIÓN WEB*/
+.title-h3-servicios-1 {
+}
+   /*H3 SERVICIO EMAIL MARKETING*/
+   .title-h3-servicios-2 {
+    margin-top: 10px;
+}
+   /*H3 SERVICIO UX WRITING*/
+   .title-h3-servicios-3 {
+    margin-top: 10px;
+}
+   /*H3 SERVICIO SEO*/
+   .title-h3-servicios-3 {
+    margin-top: 10px;
+}
     /*CONTENEDOR SECCIÓN DE SERVICIOS */
     .servicios-container {
         display: inline-block;
@@ -618,6 +633,22 @@ li a:hover {
         display: flex;
         flex-direction: column;
     }
+
+    /*PÁRRAFOS SERVICIOS*/
+.p-servicios {
+    margin: 20px;
+}
+
+/*MARGIN Y PADDING SERVICIOS*/
+.servicios-items {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+    /*UL SERVICIOS*/
+.ul-servicios {
+margin: 20px;
+}
     /*CONTENEDOR IMAGEN + H2 + UL SECCIÓN CONTACTO*/
     .contact-container {
         flex-direction: column;

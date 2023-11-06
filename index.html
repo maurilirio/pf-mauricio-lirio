@@ -25,38 +25,37 @@
     <img src="assets/logo.png" alt="logo Mauricio Lirio">
     <!-- MENÚ DE NAVEGACIÓN A PÁGINAS-->
     <nav class="navbar navbar-expand-lg">
-      <div>
+      <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="nav-menu">
-            <!-- PÁGINA INICIO-->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- PÁGINA DE INICIO-->
             <li class="nav-item">
-              <a class="nav-btn" href="./index.html">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
             </li>
             <!-- PÁGINA SOBRE MÍ-->
             <li class="nav-item">
-              <a class="nav-btn" href="./pages/sobremi.html">Sobre mí</a>
+              <a class="nav-link" href="./pages/sobremi.html">Sobre mí</a>
             </li>
             <!-- PÁGINA MIS TRABAJOS-->
             <li class="nav-item">
-              <a class="nav-btn" href="./pages/mistrabajos.html">Mis trabajos</a>
+              <a class="nav-link" href="./pages/mistrabajos.html">Mis trabajos</a>
             </li>
             <!-- PÁGINA SERVICIOS-->
             <li class="nav-item">
-              <a class="nav-btn" href="./pages/servicios.html">Servicios</a>
+              <a class="nav-link" href="./pages/servicios.html">Servicios</a>
             </li>
             <!-- PÁGINA CONTACTO-->
             <li class="nav-item">
-              <a class="nav-btn" href="./pages/contacto.html">Contacto</a>
+              <a class="nav-link" href="./pages/contacto.html">Contacto</a>
             </li>
           </ul>
-          <!-- BARRA DE BÚSQUEDA-->
           <form class="d-flex" role="search">
             <input class="form-control me-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
-            <button class="nav-btn" type="submit">Buscar</button>
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
           </form>
         </div>
       </div>
@@ -79,7 +78,8 @@
         <p class="descripcion-intro">Te vas a encontrar con contenidos adaptados a las necesidades de las personas
           usuarias, con posicionamiento <strong>SEO</strong>, contenidos empleando técnicas de
           <strong>Copywriting</strong> y algunos ejemplos de campañas de <strong>Email Marketing</strong> llevadas a
-          cabo.</p>
+          cabo.
+        </p>
 
         <p class="descripcion-intro-end">¡Espero que lo disfrutes!</p>
       </div>
@@ -127,7 +127,8 @@
         años.</p>
 
       <p class="text-exp"> En <strong>Colegio Universitario IES</strong>, donde trabajé 4 años, y
-        <strong>YoMeAnimo!</strong> donde me encuentro trabajando.</p>
+        <strong>YoMeAnimo!</strong> donde me encuentro trabajando.
+      </p>
 
       <p class="text-exp">A lo largo de este portfolio podrán ver los trabajos que realicé para ambas organizaciones.
       </p>
@@ -167,7 +168,7 @@
   </main>
   <!-- FOOTER-->
   <footer>
-    <div class="footer-logo">
+    <div>
       <img src="assets/logo.png" alt="logo Mauricio Lirio">
     </div>
     <div>
@@ -188,11 +189,13 @@
         <li><a class="color-nav" href="./pages/contacto.html">Contacto</a></li>
       </ul>
     </div>
-    <div class="footer-social">
+    <div>
       <!-- REDES SOCIALES-->
       <p>Mis redes</p>
-      <img src="assets/linkedin-icono.png" alt="logo Linkedin">
-      <img src="assets/instagram-logo.png" alt="logo Instagram">
+      <a href="https://www.linkedin.com/in/mauricio-lirio-804370161/" target="_blank"><img
+          src="assets/linkedin-icono.png" alt="logo Linkedin"></a>
+      <a href="https://www.instagram.com/mauri.lirio/" target="_blank"><img src="assets/instagram-logo.png"
+          alt="logo Instagram"></a>
     </div>
   </footer>
   <!-- BOOTSTRAP-->

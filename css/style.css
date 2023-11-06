@@ -26,21 +26,7 @@ button {
 div {
     font-family: 'Montserrat', sans-serif;
 }
-/*LOGO EN FILA CON ELEMENTOS DE NAV*/
-header {
-    height: 5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-/*ELEMENTOS UL DE NAV EN FILA*/
-.nav-menu {
-    display: flex;
-    align-items: center;
-    width: 500px;
-    justify-content: space-around;
-    list-style: none;
-}
+
 /*ESTILOS GENERALES DE LOS BOTONES*/
 button {
     padding: 5px 10px 5px 10px;
@@ -52,16 +38,33 @@ button {
 a:hover {
     color: white;
 }
+/*ENLACES DEL MENÚ DE NAVEGACIÓN EN ESTADO NORMAL*/
+.navbar-nav .nav-link {
+    color: black;
+    transition: color 0.3s;
+}
+/*HOVER ENLACES DEL MENÚ DE NAVEGACIÓN*/
+.navbar-nav .nav-link:hover {
+    color: #f1e2cc;
+}
 /*BOTÓN DE BÚSQUEDA NAV*/
-.nav-btn {
-    background-color: white;
+.btn-outline-success {
+    background-color: transparent;
     border-color: #f1e2cc;
     color: black;    
+    transition: background-color 0.3s, color 0.3s;
+}
+/*HOVER A BOTÓN DE BÚSQUEDA NAV*/
+.btn.btn-outline-success:hover {
+    background-color: white;
+    color: #f1e2cc;
+    border-color: #f1e2cc;
 }
 /*HOVER A BOTONES*/
 button:hover {
     color: #f1e2cc;
 }
+
 /*DIV IMAGEN PRINCIPAL*/
 .img-principal {
     padding: 20px 20px 0px 0px;
@@ -275,6 +278,7 @@ li a:hover {
 /*CONTENEDOR SECCIÓN H1 + H2 + PÁRRAFOS + FOTO SOBRE MÍ*/
 .mi-container {
     background-color: #f1e2cc;
+    width: 100%;
 }
 /*DIV H1 + H2 + PÁRRAFOS + FOTO SOBRE MÍ*/
 .img-text-mi {
@@ -297,7 +301,6 @@ li a:hover {
 }
 /*IMAGEN SECCIÓN SOBRE MÍ*/
 .img-nos {
-    padding: 30px 50px 30px 30px;
     width: 30%;
 }
 /*LI SECCIÓN SOBRE MÍ*/
@@ -329,7 +332,7 @@ li a:hover {
 /*PÁRRAFOS SECCIÓN FORMACIÓN*/
 .p-formacion {
     padding: 50px;
-    text-align: justify;
+    text-align: center;
 }
 /*H2 SECCIÓN DE CURSOS*/
 .title-cursos {
@@ -340,7 +343,7 @@ li a:hover {
 .cursos-contenedor {
     display: flex;
     margin-top: 30px;
-    padding: 0px 70px 0px 20px; 
+    padding: 20px 70px 0px 20px; 
     background-color: #D5DED9;
 }
 /*H3 UX WRITING*/
@@ -439,22 +442,15 @@ li a:hover {
     width: 100%;
 }
 /*PRIMER PÁRRAFO TEXTO INTRODUCTORIO SERVICIOS*/
-.li-servicios-1 {
+.li-servicios {
     margin-bottom: 20px;
-}
-/*SEGUNDO PÁRRAFO TEXTO INTRODUCTORIO SERVICIOS*/
-.li-servicios-2 {
-    margin-bottom: 20px 0px 20px 0px;
-}
-/*TERCER PÁRRAFO TEXTO INTRODUCTORIO SERVICIOS*/
-.li-servicios-3 {
-    margin: 20px 0px 40px 0px;
 }
 /*UL SERVICIOS*/
 .ul-servicios {
     list-style: none;
-    margin: 0% 20% 0% 20%;
+    margin: 3% 10% 3% 10%;
     font-size: large;
+    text-align: center;
 }
 /*ARTICLE SERVICIOS*/
 .servicios-art {
@@ -463,6 +459,7 @@ li a:hover {
     background-color: #f1e2cc;
     color: black;
     font-size: large;
+    margin-bottom: 10px;
 }
 /*MARGIN Y PADDING SERVICIOS*/
 .servicios-items {
@@ -534,10 +531,20 @@ li a:hover {
     margin-top: 20px;
 }
 
-
-
 /* Media Query tablet (pantalla de ancho 768px o más pequeña) */
 @media screen and (max-width: 768px) {
+
+    /*HEADERLOGO EN FILA CON ELEMENTOS DE NAV*/   
+    header {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+}
+    /*ELEMENTOS UL DE NAV EN FILA*/
+    .nav-menu {
+    margin-left: 130px;
+    }
     /*IMAGEN Y TEXTO PRINCIPAL EN COLUMNAS*/
     .img-texto-principal {
         flex-direction: column;
@@ -635,24 +642,25 @@ li a:hover {
     }
 
     /*PÁRRAFOS SERVICIOS*/
-.p-servicios {
+    .p-servicios {
     margin: 20px;
 }
 
 /*MARGIN Y PADDING SERVICIOS*/
-.servicios-items {
+    .servicios-items {
     margin-top: 20px;
     padding: 20px;
-}
-
-    /*UL SERVICIOS*/
-.ul-servicios {
-margin: 20px;
 }
     /*CONTENEDOR IMAGEN + H2 + UL SECCIÓN CONTACTO*/
     .contact-container {
         flex-direction: column;
     }
+
+    /*IMAGEN SECCIÓN CONTACTO*/
+    .imagen-contacto {
+    width: 90%;
+    margin-top: 20px;
+}
     /*FOOTER*/
     footer {
         flex-direction: column;
@@ -660,12 +668,34 @@ margin: 20px;
     }
 }
 
-/* Media Query celular (pantalla de ancho 480px o más pequeña)*/
-@media screen and (max-width: 480px) {
+/* Media Query celular (pantalla de ancho 420px o más pequeña)*/
+@media screen and (max-width: 420px) {
+   
+    /*H2 QUIÉN SOY*/
+    .title-quien-soy {
+    margin: 30px;
+    }
+
+    .img-text-mi {
+    padding: none;
+    }
+    
+    /*H2 + PÁRRAFO QUIÉN SOY*/
+    .h2-li {
+    flex-direction: column;
+    margin: 0px;
+    text-align: center;
+    }
+
+    .ul-mi-item {
+        list-style: none;
+        margin: 0px;
+    }
+}
     /*PÁRRAFOS CURSOS*/
     .p-cursos {
-        text-align: justify;
-        padding: 20px 10px 20px 60px;
+        text-align: center;
+        padding: 30px 10px 30px 50px;
     }
     /*H3 UX MARKETING*/
     .mkt-formacion {
@@ -686,13 +716,3 @@ margin: 20px;
     .serv-title-ul {
         width: 100%;
     }
-    /*CONTENEDOR IMAGEN + H2 + UL SECCIÓN CONTACTO*/
-    .contact-container {
-        flex-direction: column;
-    }
-    /*FOOTER*/
-    footer {
-        flex-direction: column;
-        width: 100%;
-    }
-}

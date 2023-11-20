@@ -1,0 +1,14 @@
+
+.main-image-text {
+  display: flex;
+  align-items: center;
+  background-color: $yellow;
+  
+  .main-image {
+    padding: 20px 20px 0px 0px;
+    margin-left: 20px;
+  }
+  .main-img {
+      width: 100%;
+  }
+}

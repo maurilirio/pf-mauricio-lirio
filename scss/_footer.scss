@@ -1,0 +1,38 @@
+footer {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #99B2B7;
+  padding: 0px 50px 0px 50px;
+
+div {
+  flex: 1;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+}
+
+.contact-icon {
+  margin: 0px 10px 10px 0px; 
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer-nav {
+padding-top: 20px;
+}
+
+li a:hover {
+  color: #f1e2cc;
+}
+
+.color-nav {
+  color: black;
+}

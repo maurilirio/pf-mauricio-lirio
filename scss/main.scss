@@ -1,0 +1,27 @@
+/*RESET*/
+@import "./Reset/reset";
+@import "./Reset/mixin";
+@import "./Reset/vars";
+@import "./Reset/grid";
+
+/*LAYOUT*/
+@import "./general";
+@import "./header";
+@import "./main-image";
+@import "./intro-description-text";
+@import "./skills";
+@import "./experience";
+@import "./contact";
+@import "./about-me";
+@import "./content-section";
+@import "./education";
+@import "./courses";
+@import "./trabajos";
+@import "./cards";
+@import "./services";
+@import "./contact-page";
+@import "./formularios";
+@import "./footer";
+
+/*MEDIA QUERIES*/
+@import "./Reset/mq";

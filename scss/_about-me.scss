@@ -1,0 +1,21 @@
+.about-me-container {
+    background-color:map-get($map-back-color, color-fondo-1);
+    width: 100%;
+}
+
+.section-title {
+    text-align: center;
+    padding: 20px;
+    background-color: map-get($map-back-color, color-fondo-2);
+    font-family: $font-playfair;
+}    
+
+.about-me-image {
+    width: 30%;
+}
+
+.image-text-container {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}

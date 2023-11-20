@@ -1,0 +1,26 @@
+.education-container {
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+
+.education-item {
+    flex: 1;
+    text-align: center;
+    }
+
+.education-logo {
+    max-width: 100%;
+    height: auto;
+    margin: 50px 0px 30px 0px;
+}
+
+.paragraph-education {
+    padding: 50px;
+    text-align: center;
+}
+}
+
+.education-title {
+        text-align: center;
+        margin-top: 30px;
+    }

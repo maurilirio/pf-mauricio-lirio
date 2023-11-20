@@ -1,0 +1,19 @@
+/*MIXIN SIN PARÁMETROS EN INTRO-DESCRIPTION*/
+@mixin w-padd-fs{
+    width: 80%;
+    padding: 40px;
+    font-size: large;
+}
+
+/*MIXIN CON PARÁMETRO EN SKILLS*/
+@mixin ta-marg ($ta, $marg){
+    text-align: $ta;
+    margin: $marg;
+}
+
+/*MAP-GET .ABOUT-ME*/
+$map-back-color: (
+  color-fondo-1: #f1e2cc,
+  color-fondo-2: #cdcdcd,
+  color-fondo-3: #948c75
+);

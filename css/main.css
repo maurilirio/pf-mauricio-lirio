@@ -1,0 +1,624 @@
+@charset "UTF-8";
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*MIXIN SIN PARÁMETROS EN INTRO-DESCRIPTION*/
+/*MIXIN CON PARÁMETRO EN SKILLS*/
+/*MAP-GET .ABOUT-ME*/
+/*LAYOUT*/
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+ul li {
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+div {
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  padding: 5px 10px 5px 10px;
+  margin-top: 5px;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: black;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f1e2cc;
+}
+
+.btn-outline-success {
+  background-color: transparent;
+  border-color: #f1e2cc;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn.btn-outline-success:hover {
+  background-color: white;
+  color: #f1e2cc;
+  border-color: #f1e2cc;
+}
+
+button:hover {
+  color: #f1e2cc;
+}
+
+.main-image-text {
+  display: flex;
+  align-items: center;
+  background-color: #f1e2cc;
+}
+.main-image-text .main-image {
+  padding: 20px 20px 0px 0px;
+  margin-left: 20px;
+}
+.main-image-text .main-img {
+  width: 100%;
+}
+
+.intro-text {
+  width: 80%;
+  padding: 40px;
+  font-size: large;
+}
+
+.intro-title {
+  margin-bottom: 50px;
+}
+
+.intro-description {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.intro-description-end {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.skills-container {
+  padding: 20px;
+}
+.skills-container .skills-title {
+  text-align: center;
+  margin: 50px 0px 30px 0px;
+  padding-top: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+.skills-container .skills-text {
+  text-align: center;
+  font-size: large;
+}
+.skills-container .skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.skills-container .skills-item {
+  text-align: center;
+  margin: 10px;
+}
+.skills-container .imgs-skills {
+  width: 100%;
+}
+
+.experience-container {
+  background-color: #f1e2cc;
+  padding: 3px;
+}
+.experience-container .experience-title {
+  text-align: center;
+  margin: 50px 50px 30px 50px;
+}
+.experience-container .experience-text {
+  text-align: center;
+  font-size: large;
+}
+.experience-container .experience-items {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 20px 20px 30px;
+}
+
+.contact-container-form {
+  background-color: #D5DED9;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+.contact-container-form .contact-title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.contact-container-form .contact-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  flex: 1;
+  padding: 10px;
+  flex: 1;
+}
+.contact-container-form .contact-list {
+  list-style: none;
+}
+.contact-container-form .contact-label {
+  padding: 5px 0px;
+}
+
+.about-me-container {
+  background-color: #f1e2cc;
+  width: 100%;
+}
+
+.section-title {
+  text-align: center;
+  padding: 20px;
+  background-color: #cdcdcd;
+  font-family: "Playfair Display", serif;
+}
+
+.about-me-image {
+  width: 30%;
+}
+
+.image-text-container {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.content-section {
+  display: flex;
+  align-items: center;
+  margin: 40px;
+  font-size: large;
+}
+.content-section .subsection-title {
+  text-align: center;
+  padding: 20 0px 3px 0px;
+  color: #948C75;
+}
+.content-section .list-about-me {
+  list-style: none;
+  margin: 20px;
+}
+
+.education-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+}
+.education-container .education-item {
+  flex: 1;
+  text-align: center;
+}
+.education-container .education-logo {
+  max-width: 100%;
+  height: auto;
+  margin: 50px 0px 30px 0px;
+}
+.education-container .paragraph-education {
+  padding: 50px;
+  text-align: center;
+}
+
+.education-title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.courses-container {
+  display: flex;
+  margin-top: 30px;
+  padding: 20px 70px 0px 20px;
+  background-color: #D5DED9;
+}
+.courses-container .course-title {
+  text-align: center;
+  padding-top: 30px;
+}
+.courses-container .course-description {
+  padding: 20px 100px 20px 100px;
+  text-align: justify;
+  font-size: large;
+}
+
+.courses-title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.trabajos-container {
+  background-color: #f1e2cc;
+}
+.trabajos-container .trabajos-title {
+  text-align: center;
+  padding: 20px;
+  background-color: #cdcdcd;
+  font-family: "Playfair Display", serif;
+}
+.trabajos-container .trabajos-details {
+  background-color: #f1e2cc;
+  text-align: center;
+  font-size: large;
+}
+.trabajos-container .trabajos-list-item {
+  list-style: none;
+  margin: 20px;
+}
+
+.cards-trabajos {
+  padding: 50px 30px 10px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cards-trabajos .card {
+  margin-bottom: 30px;
+  width: 30rem;
+  padding: 10px;
+}
+.cards-trabajos .card:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-1%);
+}
+.cards-trabajos .card-body {
+  text-align: center;
+}
+.cards-trabajos .card-title {
+  font-weight: 700;
+}
+.cards-trabajos .card-text {
+  padding: 10px;
+}
+.cards-trabajos .button-card {
+  background-color: #f1e2cc;
+  border-color: black;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+  font-size: large;
+}
+
+.centrar-boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.servicios-container {
+  display: inline-block;
+}
+
+.services-section {
+  width: 100%;
+}
+
+.service-title {
+  margin-left: 40px;
+}
+
+.services-list {
+  list-style: none;
+  margin: 3% 10% 3% 10%;
+  font-size: large;
+  text-align: center;
+}
+
+.service-item {
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+
+.service-article {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1e2cc;
+  color: black;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.service-item {
+  margin: 30px 20px 20px 30px;
+  padding: 0px 200px 0px 50px;
+}
+
+.service-details {
+  display: flex;
+  align-items: center;
+}
+
+.service-description {
+  margin-left: 70px;
+}
+
+.contact-form-container {
+  padding: 20px 0px 20px 0px;
+}
+.contact-form-container .contact-container {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 30px;
+  align-items: center;
+}
+.contact-form-container .contact-h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+.contact-form-container .contact-list {
+  list-style: none;
+  font-size: large;
+}
+.contact-form-container .contact-list-item-1 {
+  margin-bottom: 20px;
+}
+.contact-form-container .contact-list-item-2 {
+  margin-top: 20px;
+}
+.contact-form-container .contact-image {
+  width: 50%;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  text-align: left;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type=submit] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #99B2B7;
+  padding: 0px 50px 0px 50px;
+}
+footer div {
+  flex: 1;
+  text-align: center;
+}
+footer ul {
+  list-style: none;
+}
+
+.contact-icon {
+  margin: 0px 10px 10px 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer-nav {
+  padding-top: 20px;
+}
+
+li a:hover {
+  color: #f1e2cc;
+}
+
+.color-nav {
+  color: black;
+}
+
+/*MEDIA QUERIES*/
+/* Media Query tablet (pantalla de ancho 768px o más pequeña) */
+@media screen and (max-width: 768px) {
+  header {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-menu {
+    margin-left: 130px;
+  }
+  .main-image-text {
+    flex-direction: column;
+  }
+  .main-image-text .main-image {
+    padding: 20px 20px 0px 0px;
+    margin-left: 20px;
+  }
+  .main-image-text .main-img {
+    width: 100%;
+    margin: auto;
+  }
+  .skills-container {
+    padding: 50px;
+  }
+  .skills-container .skills {
+    flex-wrap: wrap;
+  }
+  .skills-container .skills-item {
+    padding: 30px;
+    text-align: center;
+  }
+  .experience-container {
+    padding: 50px;
+  }
+  .experience-container .experience-items {
+    flex-direction: column;
+  }
+  .contact-container-form {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 80%;
+  }
+  .image-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .about-me-image {
+    margin: auto;
+    width: 100%;
+  }
+  .education-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .education-container .paragraph-education {
+    padding: 20px 80px 20px 80px;
+    text-align: justify;
+  }
+  .courses-container {
+    display: inline-block;
+    padding: 20px 70px 0px 20px;
+  }
+  .courses-container .course-description {
+    text-align: center;
+    padding: 40px;
+  }
+  .service-title {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .servicios-container {
+    display: inline-block;
+  }
+  .services-section {
+    width: 100%;
+  }
+  .service-details {
+    display: flex;
+    flex-direction: column;
+  }
+  .service-description {
+    margin: 20px;
+  }
+  .service-item {
+    margin-top: 20px;
+    padding: 20px;
+  }
+  .contact-form-container {
+    padding: 20px 0px 20px 0px;
+  }
+  .contact-form-container .contact-container {
+    flex-direction: column;
+  }
+  .contact-form-container .contact-image {
+    width: 90%;
+    margin-top: 20px;
+  }
+  footer {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footer-margin {
+    padding-bottom: 30px;
+  }
+}
+/* Media Query celular (pantalla de ancho 420px o más pequeña)*/
+@media screen and (max-width: 420px) {
+  .content-section {
+    flex-direction: column;
+    margin: 0px;
+    text-align: center;
+  }
+  .content-section .subsection-title {
+    margin: 30px;
+  }
+  .image-text-container {
+    padding: none;
+  }
+  .list-about-me {
+    list-style: none;
+    margin: 0px;
+  }
+}
+.course-description {
+  text-align: center;
+  padding: 30px 10px 30px 50px;
+}
+
+.mkt-formacion {
+  text-align: center;
+  padding: 0px 0px 0px 45px;
+}
+
+.course-title {
+  text-align: center;
+  padding: 0px 0px 0px 30px;
+}
+
+.copy-formacion {
+  text-align: center;
+  padding: 0px 0px 0px 45px;
+}
+
+.services-section {
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

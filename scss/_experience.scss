@@ -1,0 +1,18 @@
+.experience-container {
+    background-color: $yellow;
+    padding: 3px;
+
+    .experience-title {
+    text-align: center;
+    margin: 50px 50px 30px 50px;
+}
+    .experience-text {
+    text-align: center;
+    font-size: large;
+}
+    .experience-items {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 20px 20px 30px;
+}
+}

@@ -1,0 +1,21 @@
+.trabajos-container {
+    background-color: $yellow;
+
+.trabajos-title {
+    text-align: center;
+    padding: 20px;
+    background-color: $grey2;
+    font-family: $font-playfair;
+}
+
+.trabajos-details {
+    background-color: $yellow;
+    text-align: center;
+    font-size: large;
+}
+
+.trabajos-list-item {
+    list-style: none;
+    margin: 20px;
+}
+}

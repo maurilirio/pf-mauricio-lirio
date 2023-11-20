@@ -1,0 +1,47 @@
+.cards-trabajos {
+    padding: 50px 30px 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    .card {
+    margin-bottom: 30px;
+    width: 30rem;
+    padding: 10px;
+    }
+
+    .card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-1%);
+    }
+    
+    .card-body {
+    text-align: center;
+    }
+
+    .card-title {
+    font-weight: 700;
+    }
+
+    .card-text {
+    padding: 10px;
+    }
+
+    .button-card {
+    background-color: $yellow;
+    border-color: $black;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+    font-size: large;
+}
+}
+
+.centrar-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}

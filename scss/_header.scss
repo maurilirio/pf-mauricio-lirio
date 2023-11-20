@@ -1,0 +1,25 @@
+.navbar-nav .nav-link {
+    color: black;
+    transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f1e2cc;
+}
+
+.btn-outline-success {
+    background-color: transparent;
+    border-color: #f1e2cc;
+    color: black;    
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn.btn-outline-success:hover {
+    background-color: white;
+    color: #f1e2cc;
+    border-color: #f1e2cc;
+}
+
+button:hover {
+    color: #f1e2cc;
+}

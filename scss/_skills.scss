@@ -1,0 +1,30 @@
+.skills-container {
+    padding: 20px;
+
+    .skills-title {
+        @include ta-marg (center, 50px 0px 30px 0px);
+    padding-top: 15px;
+    font-family: $font-montserrat;
+    }
+    
+    .skills-text {
+        text-align: center;
+        font-size: large;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 50px;
+    }
+
+    .skills-item {
+        @include ta-marg (center, 10px);
+    }
+
+    .imgs-skills {
+        width: 100%;
+    }
+}
+

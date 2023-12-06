@@ -261,7 +261,6 @@ button:hover {
   padding-top: 30px;
 }
 .courses-container .course-description {
-  padding: 20px 100px 20px 100px;
   text-align: justify;
   font-size: large;
 }
@@ -535,10 +534,6 @@ li a:hover {
   .courses-container {
     display: inline-block;
     padding: 20px 70px 0px 20px;
-  }
-  .courses-container .course-description {
-    text-align: center;
-    padding: 40px;
   }
   .service-title {
     margin-top: 30px;

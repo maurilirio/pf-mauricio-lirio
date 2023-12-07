@@ -494,7 +494,7 @@ li a:hover {
     margin: auto;
   }
   .skills-container {
-    padding: 50px;
+    padding: 10px 50px 10px 50px;
   }
   .skills-container .skills {
     flex-wrap: wrap;
@@ -504,7 +504,7 @@ li a:hover {
     text-align: center;
   }
   .experience-container {
-    padding: 50px;
+    padding: 10px 50px 10px 50px;
   }
   .experience-container .experience-items {
     flex-direction: column;
